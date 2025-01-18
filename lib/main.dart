@@ -1,4 +1,5 @@
 import 'package:cliperpratice/screens/login_screen.dart';
+import 'package:cliperpratice/screens/painter_sign_in.dart';
 import 'package:flutter/material.dart';
 
 import 'clipers/mycliper.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.indigo,
       ),
       debugShowCheckedModeBanner: false,
-      home: LoginPageUI(),
+      home: GetStartedScreen(),
     );
   }
 }
